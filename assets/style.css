@@ -1,0 +1,43 @@
+#main-img {
+	width: 300;
+	height: 300;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 80px;
+	background-color: black;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+
+.nli a {
+	display: block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.nli a.active {
+	background-color: #04AA6D;
+	color: white;
+}
+
+.nli a:hover:not(.active) {
+	background-color: #555555;
+	color: white;
+}
+
+body {
+	background-color: black;
+}
+
+h1, p {
+	color: white;
+}
